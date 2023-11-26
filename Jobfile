@@ -23,7 +23,7 @@ schedular:
     - "#BSUB -J boiling"
     - "#BSUB -o o%J.boiling"
     - "#BSUB -e o%J.boiling"
-    - "#BSUB -nnodes 2"
+    - "#BSUB -nnodes 1"
 
 # job configuration
 job:
