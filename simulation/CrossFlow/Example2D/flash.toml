@@ -27,15 +27,15 @@
 
 [IncompNS]
   ins_invReynolds = 0.0001
-  ins_inflowVelScale = 1.0
+  ins_inflowVelScale = 2.0
   ins_gravY = -0.01
   ins_cflFlg = 1
   ins_cfl = 0.005
   ins_sigma = 0.005
   ins_dtSpec = 0.1e-4
   ins_pressureCorrect = false
-  ins_intSchm = 1
-  ins_advSchm = 105
+  ins_intSchm = 2
+  ins_advSchm = 2
 
 [Outlet]
   out_buffer = 1.0
